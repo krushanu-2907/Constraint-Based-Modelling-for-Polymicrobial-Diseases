@@ -1,0 +1,46 @@
+Reaction ID,Flux 1,Flux 2,Difference,Reaction,Reaction Name
+AKGMALtm_ent,597.5675272,919.5008383,321.9333111,AKGMALtm_ent: akg[m]_ent + mal_L[c]_ent <=> akg[c]_ent + mal_L[m]_ent,alpha-ketoglutarate/malate transporter
+ALALPATtc_ent,0,162.3620043,162.3620043,ALALPATtc_ent: ala_L_shared + h_shared --> ala_L[c]_ent + h[c]_ent,transport of L-Alanine by the apical PAT2 or PAT1 amino acid transporters in kidney and intestine
+ASPGLUm_ent,632.7385626,829.0016766,196.2631139,ASPGLUm_ent: asp_L[m]_ent + glu_L[c]_ent + h[c]_ent <=> asp_L[c]_ent + glu_L[m]_ent + h[m]_ent,aspartate-glutamate mitochondrial shuttle
+ASPTA_ent,594.2925062,829.0016766,234.7091704,ASPTA_ent: akg[c]_ent + asp_L[c]_ent <=> glu_L[c]_ent + oaa[c]_ent,aspartate transaminase
+ASPTAm_ent,-632.7385626,-829.0016766,196.2631139,ASPTAm_ent: akg[m]_ent + asp_L[m]_ent <=> glu_L[m]_ent + oaa[m]_ent,aspartate transaminase
+G3PD1_ent,626.2371827,936.2405964,310.0034136,G3PD1_ent: glyc3p[c]_ent + nad[c]_ent <=> dhap[c]_ent + h[c]_ent + nadh[c]_ent,glycerol-3-phosphate dehydrogenase (NAD)
+H2Otm_ent,-1000,-879.4423509,120.5576491,H2Otm_ent: h2o[c]_ent <=> h2o[m]_ent,"H2O transport, mitochondrial"
+MDH_ent,-626.2371827,-829.0016766,202.7644938,MDH_ent: mal_L[c]_ent + nad[c]_ent <=> h[c]_ent + nadh[c]_ent + oaa[c]_ent,malate dehydrogenase
+MDHm_ent,664.6832392,819.0016766,154.3184374,MDHm_ent: mal_L[m]_ent + nad[m]_ent <=> h[m]_ent + nadh[m]_ent + oaa[m]_ent,"malate dehydrogenase, mitochondrial"
+NADH2_u10m_ent,775.0739722,1000,224.9260278,NADH2_u10m_ent: 5.0 h[m]_ent + nadh[m]_ent + q10[m]_ent --> 4.0 h[c]_ent + nad[m]_ent + q10h2[m]_ent,"NADH dehydrogenase, mitochondrial"
+PIt2m_ent,986.724979,809.0016766,177.7233024,PIt2m_ent: h[c]_ent + pi[c]_ent <=> h[m]_ent + pi[m]_ent,"phosphate transporter, mitochondrial"
+r0205_ent,-618.8165147,-936.2405964,317.4240817,r0205_ent: glyc3p[c]_ent + q10[m]_ent <=> dhap[c]_ent + q10h2[m]_ent,
+ATPM_ent,1000,800,200,ATPM_ent: atp[c]_ent + h2o[c]_ent --> adp[c]_ent + h[c]_ent + pi[c]_ent,ATP maintenance requirement
+ALAt2rpp_vc,-7.808545945,-150.251357,142.4428111,ALAt2rpp_vc: ala-L[p]_vc + h[p]_vc <=> ala-L[c]_vc + h[c]_vc,L-alanine reversible transport via proton symport (periplasm)
+ATPS4rpp_vc,1.804319505,150.793491,148.9891715,ATPS4rpp_vc: adp[c]_vc + 4.0 h[p]_vc + pi[c]_vc <=> atp[c]_vc + h2o[c]_vc + 3.0 h[c]_vc,ATP synthase (four protons for one ATP) (periplasm)
+H2Otex_vc,9.320903448,222.4900304,213.1691269,H2Otex_vc: oh1_shared <=> h2o[p]_vc,H2O transport via diffusion (extracellular to periplasm)
+ACALD_etec,0,127.0128654,127.0128654,ACALD_etec: acald[c]_etec + coa[c]_etec + nad[c]_etec <=> accoa[c]_etec + h[c]_etec + nadh[c]_etec,Acetaldehyde dehydrogenase (acetylating)
+ALATA_L_etec,0,-156.5425951,156.5425951,ALATA_L_etec: akg[c]_etec + ala__L[c]_etec <=> glu__L[c]_etec + pyr[c]_etec,L-alanine transaminase
+ALAt2pp_copy2_etec,0,-183.7937265,183.7937265,ALAt2pp_copy2_etec: ala__L[p]_etec + h[p]_etec <=> ala__L[c]_etec + h[c]_etec,L-alanine transport in via proton symport (periplasm)
+ALAtex_etec,0,-183.7937265,183.7937265,ALAtex_etec: ala_L_shared <=> ala__L[p]_etec,L-alanine transport via diffusion (extracellular to periplasm)
+ATPS4rpp_etec,12.12504901,1000,987.874951,ATPS4rpp_etec: adp[c]_etec + 4.0 h[p]_etec + pi[c]_etec <=> atp[c]_etec + h2o[c]_etec + 3.0 h[c]_etec,ATP synthase (four protons for one ATP) (periplasm)
+DRPA_etec,3.149985997,147.0128654,143.8628794,DRPA_etec: 2dr5p[c]_etec --> acald[c]_etec + g3p[c]_etec,Deoxyribose-phosphate aldolase
+ENO_etec,3.874964992,140.0178701,136.1429051,ENO_etec: 2pg[c]_etec <=> h2o[c]_etec + pep[c]_etec,Enolase
+GAPD_etec,3.874964992,170.0530978,166.1781328,GAPD_etec: g3p[c]_etec + nad[c]_etec + pi[c]_etec <=> 13dpg[c]_etec + h[c]_etec + nadh[c]_etec,Glyceraldehyde-3-phosphate dehydrogenase
+GLUDy_etec,0,-132.5491361,132.5491361,GLUDy_etec: glu__L[c]_etec + h2o[c]_etec + nadp[c]_etec <=> akg[c]_etec + h[c]_etec + nadph[c]_etec + nh4[c]_etec,Glutamate dehydrogenase (NADP)
+FLDR2_etec,0,139.6306037,139.6306037,FLDR2_etec: 2.0 flxso[c]_etec + nadph[c]_etec --> 2.0 flxr[c]_etec + h[c]_etec + nadp[c]_etec,Flavodoxin reductase (NADPH)
+H2tex_etec,0,525.4181268,525.4181268,H2tex_etec: h_shared <=> h2[p]_etec,Hydrogen transport via diffusion (extracellular to periplasm)
+H2tpp_etec,0,525.4181268,525.4181268,H2tpp_etec: h2[p]_etec <=> h2[c]_etec,Hydrogen transport diffusion (periplasm)
+FRD2_etec,0,525.4181268,525.4181268,FRD2_etec: fum[c]_etec + mql8[c]_etec --> mqn8[c]_etec + succ[c]_etec,Fumarate reductase
+H2Otex_etec,-3.90E-15,-358.0983941,358.0983941,H2Otex_etec: oh1_shared <=> h2o[p]_etec,H2O transport via diffusion (extracellular to periplasm)
+H2Otpp_etec,0,-458.0983941,458.0983941,H2Otpp_etec: h2o[p]_etec <=> h2o[c]_etec,H2O transport via diffusion (periplasm)
+HYD2pp_etec,0,525.4181268,525.4181268,HYD2pp_etec: h2[c]_etec + 2.0 h[c]_etec + mqn8[c]_etec --> 2.0 h[p]_etec + mql8[c]_etec,Hydrogenase (menaquinone8: 2 protons) (periplasm)
+Htex_etec,15.0625175,-351.4053581,366.4678756,Htex_etec: h_shared <=> h[p]_etec,Proton transport via diffusion (extracellular to periplasm)
+NADH16pp_etec,0,492.7782006,492.7782006,NADH16pp_etec: 4.0 h[c]_etec + nadh[c]_etec + q8[c]_etec --> 3.0 h[p]_etec + nad[c]_etec + q8h2[c]_etec,NADH dehydrogenase (ubiquinone-8 & 3 protons) (periplasm)
+NO2tex_etec,0,-946.2969306,946.2969306,NO2tex_etec: no_shared <=> no2[p]_etec,Nitrite transport via diffusion (extracellular to periplasm)
+NO3R1pp_etec,0,946.2969306,946.2969306,NO3R1pp_etec: 2.0 h[c]_etec + no3[c]_etec + q8h2[c]_etec --> h2o[c]_etec + 2.0 h[p]_etec + no2[c]_etec + q8[c]_etec,Nitrate reductase (Ubiquinol-8) (periplasm)
+NO3t7pp_etec,0,946.2969306,946.2969306,NO3t7pp_etec: no2[c]_etec + no3[p]_etec --> no2[p]_etec + no3[c]_etec,Nitrate transport in via nitrite antiport (periplasm)
+NO3tex_etec,0,946.2969306,946.2969306,NO3tex_etec: no_shared <=> no3[p]_etec,Nitrate transport via diffusion (extracellular to periplasm)
+PGK_etec,-3.874964992,-170.0530978,166.1781328,PGK_etec: 3pg[c]_etec + atp[c]_etec <=> 13dpg[c]_etec + adp[c]_etec,Phosphoglycerate kinase
+PGM_etec,-3.874964992,-140.0178701,136.1429051,PGM_etec: 2pg[c]_etec <=> 3pg[c]_etec,Phosphoglycerate mutase
+POR5_etec,-3.12E-31,-138.4501337,138.4501337,POR5_etec: coa[c]_etec + 2.0 flxso[c]_etec + pyr[c]_etec <=> accoa[c]_etec + co2[c]_etec + 2.0 flxr[c]_etec + h[c]_etec,Pyruvate synthase
+PUNP6_etec,3.149985997,127.022765,123.872779,PUNP6_etec: din[c]_etec + pi[c]_etec <=> 2dr1p[c]_etec + hxan[c]_etec,Purine-nucleoside phosphorylase (Deoxyinosine)
+SUCDi_etec,0,544.2859076,544.2859076,SUCDi_etec: q8[c]_etec + succ[c]_etec --> fum[c]_etec + q8h2[c]_etec,Succinate dehydrogenase (irreversible)
+THD2pp_etec,0,259.1233747,259.1233747,THD2pp_etec: 2.0 h[p]_etec + nadh[c]_etec + nadp[c]_etec --> 2.0 h[c]_etec + nad[c]_etec + nadph[c]_etec,NAD(P) transhydrogenase (periplasm)
+PPM2_etec,3.149985997,147.0128654,143.8628794,PPM2_etec: 2dr1p[c]_etec <=> 2dr5p[c]_etec,Phosphopentomutase 2 (deoxyribose)
